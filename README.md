@@ -1,43 +1,72 @@
-# Astro Starter Kit: Minimal
+# VYRON — Digital Studio
 
-```sh
-npm create astro@latest -- --template minimal
+VYRON is a modern, responsive landing page for a digital studio, built with Astro and Tailwind CSS. It features a clean design, smooth interactions, and a user-friendly layout across different screen sizes.
+
+## Live Website
+
+[Visit VYRON](https://vyron-opal.vercel.app/)
+
+## Features
+
+- Modern and minimal UI
+- Responsive design for mobile, tablet, and desktop
+- Hero section with a clear introduction
+- Services section
+- About section
+- Selected work showcase
+- Contact section and footer
+- Smooth scrolling and hover effects
+
+## Tech Stack
+
+- Astro
+- Tailwind CSS
+- HTML
+- CSS
+- Vercel (Deployment)
+
+## Run Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Harpal-Chauhan/vyron.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd vyron
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## Build
+
+To create a production build:
+
+```bash
+npm run build
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Deployment
 
-## 🚀 Project Structure
+The website is deployed on Vercel and connected to its GitHub repository.
 
-Inside of your Astro project, you'll see the following folders and files:
+**Live URL:** https://vyron-opal.vercel.app/
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+---
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Built with Astro and Tailwind CSS.
